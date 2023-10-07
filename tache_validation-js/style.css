@@ -1,0 +1,208 @@
+body{
+    background-color: rgb(240, 240, 240);
+    font-family: 'Courier New', Courier, monospace;
+    width: 99%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cld{
+    width: 60%;
+    height: 80%;
+    background-image: url('image/Nigériane-photo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#herder{
+   width: 100%;
+   height: 18%;
+   display: flex;
+   flex-direction: column;
+}
+
+#cldt{
+    width: 100%;
+    height: 66%;
+    color: white;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#buttonAvanApres{
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(60, 60, 60);
+}
+
+
+.cldBtn{
+    width: 40%;
+    height: 100%;
+    border: none;
+    color: black;
+    outline: none;
+    transition: 0.2s;
+    font-size: 30px;
+}
+
+.cldBtn:hover{
+    background-color: rgb( 75, 75, 75);
+    color: white;
+}
+
+#cldBoite{
+    width: 100%;
+    height: 82%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#jours{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jour{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 10px;
+    font-size: 25px;
+}
+
+
+.semaine{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.case{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.1s;
+    color: white;
+    margin: 0;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.case:hover{
+    background-color: rgb( 110, 110, 110);
+}
+
+
+
+#myModal {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;  
+    z-index: 1000;
+}
+
+#myModal .contenu-modal {
+    width: 60%;
+    height: auto;
+    margin: 100px auto;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid #cccccc;
+    position: absolute;
+    color : black;
+    left: 50%;
+    top: 300px;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+#myModal span {
+   position: absolute;
+   right: 0;
+   top: 0;
+   color: red;
+   font-size: 30px;
+   cursor: pointer;
+}
+
+#form input{
+    width: 55%;
+}
+  
+#btn{
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* #list{
+    background-color: blue;
+} */
+#list li{
+    font-size: 30px;
+    font-weight: bold;
+    background-color: rgb(2, 56, 91);
+    color: white;
+    padding: 0 10px;
+    margin-top: 10px;
+    width: 100%;
+}
+
+#list li h3{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#list li p{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+#list li button{
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+#div-afiche{
+    font-size: 20px;
+    font-weight: 200;
+}
